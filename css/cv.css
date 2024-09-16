@@ -21,10 +21,17 @@ nav ul li {
 }
 ul li a{
     text-decoration: none;
-    color: white;
+    color: white;   
+    text-align: center;
+    /* width: 25%; */
+    border-radius: 10px;
+    padding: 10px;
+    transition: all .25s;
 }
 ul li a:hover {
     text-decoration: underline;
+    box-shadow: yellowgreen 1px 1px 5px;
+    transform: scale(1.05);
 }
 /* end nav */
 
@@ -83,12 +90,12 @@ ul li a:hover {
     padding: 20px;
     border-radius: 10px;
 }
-.features, .courses {
+.features, .courses , .cert{
     margin: 10px;
     justify-content: center;
     text-align: center;
 }
-.features h1, .courses h1{
+.features h1, .courses h1, .cert h1{
     margin-bottom: 50px;
     color: red;
     font-size: 38px;
@@ -118,8 +125,9 @@ ul li a:hover {
     margin: 5px auto;
     line-height: 1.5;
 }
-.features .all-features .feature, .black-courses .all-features .feature {
-    color: yellowgreen;
+.features .all-features .feature:hover, .black-courses .all-features .feature:hover {
+    box-shadow: yellowgreen 3px 3px 10px;
+    transform: scale(1.05);
 }
 .feature:hover {
     box-shadow: 3px 3px 10px;
@@ -166,7 +174,9 @@ ul li a:hover {
     margin: auto;
     padding: 10px;
     background-color: #eee;
-    border-radius: 10px;
+    text-align: center;
+    transition: all .25s;
+    border-radius: 50px;
 }
 .form-contact:hover{
     box-shadow: 3px 3px 10px;
