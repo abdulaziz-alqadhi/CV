@@ -55,11 +55,30 @@ ul li a:hover {
     font-size: 30px;
     font-weight: bolder;
 }
+.my-name{
+    font-weight: 800;
+    color: red;
+}
+.my-title{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 3;
+    font-weight: 600;
+}
+.my-header-main-info-img{
+    margin: 10px;
+    background-color: #f5f5f5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/background.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* end main */
 
 
 /* features */
-.features:not(.courses-f-2), .our-contact{
+.features:not(.cert), .black-courses{
     background-color: #000;
     padding: 20px;
     border-radius: 10px;
@@ -99,7 +118,7 @@ ul li a:hover {
     margin: 5px auto;
     line-height: 1.5;
 }
-.features .all-features .feature {
+.features .all-features .feature, .black-courses .all-features .feature {
     color: yellowgreen;
 }
 .feature:hover {
