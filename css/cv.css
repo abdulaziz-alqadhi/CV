@@ -90,6 +90,14 @@ ul li a:hover {
     padding: 20px;
     border-radius: 10px;
 }
+.cert, .our-contact{
+    padding: 10px;
+    border-radius: 10px;
+}
+.courses {
+    margin: 10px;
+    padding: 10px;
+}
 .features, .courses , .cert{
     margin: 10px;
     justify-content: center;
